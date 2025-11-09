@@ -7,8 +7,8 @@ import {
     Text,
     TouchableOpacity,
 } from "react-native";
-import { getPopularMovies } from "../api/movieApi";
-import MovieCard from "../components/MovieCard";
+import { getPopularMovies } from "../api/moviedbApi";
+import MovieCard from "../components/Card";
 
 export default function HomeScreen({ navigation }) {
     // Movies list state

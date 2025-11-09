@@ -7,9 +7,9 @@ import {
     ActivityIndicator,
     StyleSheet,
 } from "react-native";
-import { getMovieDetails, getPoster } from "../api/movieApi";
-import FavouriteButton from "../components/FavouriteButton";
-import { useFavourites } from "../context/FavouritesContext";
+import { getMovieDetails, getPoster } from "../api/moviedbApi";
+import FavouriteButton from "../components/FavBtn";
+import { useFavourites } from "../context/FavContext";
 
 export default function MovieDetailsScreen({ route }) {
     // Get the movie id passed from HomeScreen

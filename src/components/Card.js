@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
-import { getPoster } from "../api/movieApi";
+import { getPoster } from "../api/moviedbApi";
 
 export default function MovieCard({ movie, onPress }) {
     return (
@@ -46,6 +46,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#eee",
     },
     info: { flex: 1, justifyContent: "center" },
-    title: { fontSize: 16, fontWeight: "bold",color: "#ffffffff" },
+    title: { fontSize: 16, fontWeight: "bold", color: "#ffffffff" },
     overview: { fontSize: 12, color: "#ffffffff", marginTop: 6 },
 });
